@@ -1,0 +1,22 @@
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c, d;
+    cout << "Please enter the 4 valuse\n";
+    cin >> a >> b >> c >> d;
+    if (a > b && a > c && a > d)
+        cout << "A is greater then other values\n";
+    if (b > a && b > c && b > d)
+        cout << "B is greater then other values\n";
+    if (c > a && c > b && c > d)
+        cout << "C is greater then other values\n";
+    if (d > a && d > b && d > c)
+        cout << "D is greater then other values\n";
+   //iss main error ni hy lykn ya programm slow hoo jay ga 
+}
+
